@@ -1,0 +1,131 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+  
+.background-image{
+    width: 100%;
+    height: 100%;
+    background-image:linear-gradient(rgba(0,0,0,0.75),rgba(0,0,0,0.75)), url(pexels-pixabay-268533.jpg);
+    background-size: cover;
+    background-position:center;
+    background-attachment: fixed;
+}
+.navbar{
+    width: 85%;
+    margin: auto;
+    padding: 35px 0;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    flex-wrap: wrap;
+
+}
+.logo{
+    width: 200px;
+   cursor: pointer;
+}
+.navbar ul li {
+    list-style: none;
+    display:inline-block;
+    margin:0 20px;
+    position: relative;
+}
+.navbar ul li a{
+    text-decoration: none;
+    color: #fff;
+    text-transform: uppercase;
+}
+.navbar ul li::after{
+     content: '';
+     height: 3px;
+     width: 0;
+     background: #009688;
+    position: absolute;
+    left: 0;
+    bottom: -10px;
+    transition: 0.3s;
+    }
+.navbar ul li:hover::after{
+    width: 100%;
+    
+}
+.container{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    margin: 20px;
+
+}
+.flex{
+    height: 200px;
+    width: 200px;
+    margin: 10px;
+    border-radius: 5px;
+    border: solid 1px white;
+    transition: transform 0.5s;
+    text-align: center;
+    display: inline-block;
+    
+}
+.flex:hover{
+    transform: translateY(-10px);
+}
+h5{
+    padding: 5px;
+    border-radius: 10px;
+    background-color: gray;
+    color: white;
+    text-transform: uppercase;
+    text-align: center;
+}
+.a{
+    background-image: url(Screenshot_20231125-122750_Chrome.jpg);
+    background-position: center;
+    background-size: cover;
+    
+}
+.A{
+    background-image: url(Screenshot-2023-11-25-134232.png);
+    background-position: center;
+    background-size: cover;
+}
+.B{
+    background-image: url(Screenshot-2023-11-25-132711.png);
+    background-position: center;
+    background-size: cover;
+}
+.C{
+    background-color: rgba(0, 150, 135, 0.572);
+}
+.a1{
+    background-color: rgba(60, 0, 128, 0.657);
+}
+.a2{
+    background-color: rgba(127, 127, 235, 0.522);
+}
+.a3{
+    background-color: rgba(247, 201, 74, 0.561);
+}
+.a4{
+    background-color: rgba(0, 0, 255, 0.509);
+}
+.a5{
+    background-color: rgba(255, 0, 0, 0.541);
+}
+h5{
+    margin: 5px;
+}
+hr{
+    margin-left: 10%;
+    margin-right: 10%;
+    margin-bottom: 20px;
+    margin-top: 20px;
+    padding: 0px;
+}
+p{
+    margin: 10px;
+    padding: 20px;
+    text-align: center;
+    color: white;
+}
